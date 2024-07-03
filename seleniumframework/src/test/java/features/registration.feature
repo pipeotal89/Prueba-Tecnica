@@ -23,7 +23,7 @@ Feature: Proceso de registro de un usuario
 
   @Registro
   Scenario: [TC-03] Enviar error si el correo no cumple con el formato
-    Given Usuario ingresa a la página
+    Given Usuario ingresa a la páginaA
     When Usuario clickea para registrarse
     And Usuario ingresa removiendo <removido> del correo
     Then Botón de enviar del formulario debería estar desactivado
